@@ -1,0 +1,12 @@
+#hero {
+	text-align: center;
+	background: url("../images/smile.jpg") top right;
+	background-size: cover;
+	background-position: center;
+	padding: 250px 0px;
+}
+
+#hero p {
+	font-size: 18px;
+	color: gray;
+}
