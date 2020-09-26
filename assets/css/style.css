@@ -1,14 +1,17 @@
+/* ======= NAVBAR ======= */
 navbar-nav {
     width: 100%;
     text-align: center;
 }
 
 .navbar-nav li {
-    float: none;
+	float: none;
     display: inline-block;
     text-align: center;
-  }
+}
+/* ======= End of NAVBAR ======= */
 
+/* ======= index.html text ======= */
 #hero {
 	text-align: left;
 	background: url("../images/smile.jpg") top right;
@@ -25,32 +28,41 @@ navbar-nav {
 #hero h1 {
 	color: rgb(255, 255, 255);
 	/*background-color: rgb(0, 0, 0, 0.3);*/
-	padding: 0px 180px;
+	padding: 0px 140px;
+	font-size: 55px;
 }
 
 #hero p {
-	font-size: 18px;
+	font-size: 20px;
 	color: rgb(245, 241, 230);
 	/*background-color: rgb(0, 0, 0, 0.25);*/
-	padding: 0px 80px;
+	padding: 0px 70px;
 }
 
 .button {
-  /*text-align: center;*/
-  color: white;
-  padding: 0px 250px;
+	/*text-align: center;*/
+	color: white;
+	padding: 0px 250px;
 }
 
 .button .btn {
-  background-color: rgb(204, 153, 102, 0.65);
-  border: 3px solid white;
-  color: white;
-  border-radius: 50%;
+	background-color: rgb(204, 153, 102, 0.65);
+	border: 3px solid white;
+	color: white;
+	border-radius: 50%;
 }
 
-.button .btn:hover,
-.btn:focus {
-  color: white;
-  border-color: currentColor;
-  background-color: rgb(204, 153, 102, 1);
+.button .btn:hover, .btn:focus {
+	color: white;
+	border-color: currentColor;
+	background-color: rgb(204, 153, 102, 1);
+}
+
+/* ======= About Page ======= */
+#summary {
+	text-align: center;
+}
+
+hr {
+
 }
